@@ -28,9 +28,9 @@ public class mathClass {
         }
 
         if(i > 10){
-            return "É um número primo";
+            return "é um número primo";
         }else{
-            return "O primeiro múltiplo é: " + i;
+            return "é múltiplo de " + i;
         }
     }
 }
