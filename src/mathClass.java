@@ -28,7 +28,7 @@ public class mathClass {
         }
 
         if(i > 10){
-            return "é um número primo";
+            return "é um número primo maior que 10";
         }else{
             return "é múltiplo de " + i;
         }
