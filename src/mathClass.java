@@ -1,11 +1,15 @@
 public class mathClass {
     
-    //Gerar número aleatório
+    /*
+     * Gerar número aleatório
+     */
     public int gerarNum(){
         return (int) ((Math.random() * (100 - 1) + 1));
     }
 
-    //Validar se é par ou não
+    /*
+     * Validar se é par ou não
+     */
     public String verificarPar(int num){
         if(num % 2 == 0){
             return "é par";
@@ -15,7 +19,9 @@ public class mathClass {
         }
     }
 
-    //Encontrar o primeiro múltiplo
+    /*
+     * Encontrar o primeiro múltiplo
+     */
     public String encontrarMúltiplo(int num){
         int i = 3;
 
